@@ -1,0 +1,13 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.6; color: #242424; background: #fff; }
+body { margin: 0; }
+main { max-width: 40rem; margin: 3rem auto; padding: 0 1.25rem 2rem; border-top: .3rem solid #b64100; }
+h1 { font-size: 2rem; line-height: 1.2; }
+h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+a { color: #a53700; text-underline-offset: .2em; }
+a:focus-visible { outline: .15rem solid currentColor; outline-offset: .3rem; }
+nav { margin-top: 2rem; }
+@media (prefers-color-scheme: dark) {
+  :root { color: #eee; background: #171717; }
+  main { border-color: #ffab70; }
+  a { color: #ffab70; }
+}
